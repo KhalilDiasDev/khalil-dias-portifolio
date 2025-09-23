@@ -46,19 +46,19 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'khalil@email.com',
-      href: 'mailto:khalil@email.com'
+      value: 'khalildsouza1@gmail.com',
+      href: 'khalildsouza1@gmail.com'
     },
     {
       icon: Phone,
       label: 'Telefone',
-      value: '+55 (11) 99999-9999',
-      href: 'tel:+5511999999999'
+      value: '+55 (34)9 99584072',
+      href: '+55 (34)9 99584072'
     },
     {
       icon: MapPin,
       label: 'Localização',
-      value: 'São Paulo, Brasil',
+      value: 'Pará, Brasil',
       href: '#'
     }
   ];
@@ -67,13 +67,13 @@ const ContactSection = () => {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      href: '#',
+      href: 'https://www.linkedin.com/in/khalildias/#',
       color: 'hover:text-blue-600'
     },
     {
       name: 'GitHub',
       icon: Github,
-      href: '#',
+      href: 'https://github.com/KhalilDiasDev?tab=repositories',
       color: 'hover:text-gray-900'
     }
   ];

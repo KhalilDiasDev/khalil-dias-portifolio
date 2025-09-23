@@ -1,20 +1,21 @@
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Github, Database, Headphones, GraduationCap, Settings } from 'lucide-react';
+import { ExternalLink, Github, Database, Headphones, GraduationCap, Settings, LayoutDashboard, CircleDollarSign } from 'lucide-react';
 
 const ProjectsSection = () => {
   const projects = [
+  
     {
-      title: 'IntegraEDU',
-      description: 'Protótipo para análise de dados educacionais em redes municipais de ensino, integrando micro e macrodados para gestores educacionais.',
-      icon: GraduationCap,
-      technologies: ['React', 'Data Analytics', 'SQL Server', 'Dashboard'],
+      title: 'Keycloak Manager',
+      description: 'Personalização completa das interfaces e arquitetura do Keycloak, incluindo redesign da sidebar, masthead e Account UI para melhor experiência do usuário.',
+      icon: Settings,
+      technologies: ['Keycloak', 'React', 'PatternFly', 'Ant Design', 'IAM'],
       features: [
-        'Análise de performance educacional',
-        'Dashboards interativos para gestores',
-        'Integração de múltiplas fontes de dados',
-        'Visualizações em tempo real'
+        'Interface administrativa redesenhada',
+        'Account UI moderna',
+        'SPIs customizados',
+        'Fluxos de autenticação para segurança avançada'
       ],
       links: {
         demo: '#',
@@ -22,25 +23,34 @@ const ProjectsSection = () => {
       }
     },
     {
-      title: 'Turismo Amazônia VR',
-      description: 'Aplicativo mobile inovador que permite visitar virtualmente cachoeiras amazônicas, explorando o uso de realidade virtual sem óculos VR.',
-      icon: Headphones,
-      technologies: ['React Native', 'VR Technologies', 'Mobile Development', '360° Video'],
+      title: 'API Business Model Canvas',
+      description: 'Saas que permite arquitetos, product owners e analistas mapear requisitos de dados, modelar o valor do produto, identificar gaps de APIs e desenhar fluxos de dados e contratos de API de forma colaborativa.',
+      icon: LayoutDashboard ,
+      technologies: [
+        'React',
+        'React Flow',
+        'Node.js',
+        'Gemini 2.0',
+        'WebSocket',
+        'MongoDB'
+      ],
       features: [
-        'Experiência VR sem dispositivos especiais',
-        'Visitas virtuais imersivas',
-        'Interface mobile otimizada',
-        'Conteúdo educativo sobre a Amazônia'
+        'Canvas visual para desenhar e organizar APIs (React Flow)',
+        'Geração e sugestão de especificações assistida por IA (Gemini 2.0)',
+        'Colaboração em tempo real entre arquitetos e PMs via WebSocket',
+        'Mapeamento de requisitos de dados e value proposition para APIs',
+        'Persistência de modelos e metadados em MongoDB',
       ],
       links: {
-        demo: '#',
-        github: '#'
+        demo: 'https://konneqt.io/qap-canvas/',
+        github: 'https://github.com/qriar-labs/qap-canvas-support'
       }
-    },
+    }
+,    
     {
-      title: 'Sistema de Controle de Gastos',
-      description: 'Sistema completo de gestão financeira com CRUD integrado ao SQL Server, hospedado em nuvem com interface moderna.',
-      icon: Database,
+      title: 'Sistema de Controle de Reembolsos',
+      description: 'Sistema completo de gestão financeira para reembolsos com CRUD integrado ao SQL (Strapi), hospedado em nuvem com interface moderna.',
+      icon: CircleDollarSign,
       technologies: ['React', 'Node.js', 'SQL Server', 'Cloud Hosting'],
       features: [
         'CRUD completo para transações',
@@ -54,15 +64,15 @@ const ProjectsSection = () => {
       }
     },
     {
-      title: 'Customizações Keycloak',
-      description: 'Personalização completa das interfaces do Keycloak, incluindo redesign da sidebar, masthead e Account UI para melhor experiência do usuário.',
-      icon: Settings,
-      technologies: ['Keycloak', 'React', 'PatternFly', 'Ant Design', 'IAM'],
+      title: 'IntegraEDU',
+      description: 'Protótipo para análise de dados educacionais em redes municipais de ensino, integrando micro e macrodados para gestores educacionais.',
+      icon: GraduationCap,
+      technologies: ['React', 'Data Analytics', 'SQL Server', 'Dashboard'],
       features: [
-        'Interface administrativa redesenhada',
-        'Account UI moderna',
-        'SPIs customizados',
-        'Fluxos de autenticação avançados'
+        'Análise de performance educacional',
+        'Dashboards interativos para gestores',
+        'Integração de múltiplas fontes de dados',
+        'Visualizações em tempo real'
       ],
       links: {
         demo: '#',

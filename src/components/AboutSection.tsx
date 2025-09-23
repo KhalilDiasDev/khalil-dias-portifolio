@@ -6,7 +6,7 @@ const AboutSection = () => {
     {
       icon: Shield,
       title: 'Cibersegurança & IAM',
-      description: 'Especialização em Identity Access Management, customização do Keycloak e implementação de fluxos de autenticação seguros.'
+      description: 'Atuação em Identity Access Management, customização do Keycloak e implementação de fluxos de autenticação seguros.'
     },
     {
       icon: Code,
@@ -16,12 +16,12 @@ const AboutSection = () => {
     {
       icon: Cloud,
       title: 'Soluções em Nuvem',
-      description: 'Integração com AWS (SES, SNS, Lambda, DynamoDB, API Gateway) e implementação de pipelines serverless.'
+      description: 'Integração com AWS (SES, SNS e API Gateway), uso do GCP para consulta de logs e repositório de imagens e implementação de pipelines.'
     },
     {
       icon: Database,
       title: 'Banco de Dados',
-      description: 'Experiência com SQL Server, modelagem de banco de dados e integração backend/frontend eficiente.'
+      description: 'Experiência com SQL Server, Strapi, MongoDB, Supabase, modelagem de banco de dados e integração backend/frontend eficiente.'
     }
   ];
 
@@ -33,7 +33,7 @@ const AboutSection = () => {
             Sobre Mim
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Desenvolvedor apaixonado por tecnologia com foco em criar soluções inovadoras e seguras
+            Desenvolvedor atuando 3 anos no mercado de tecnologia com foco em criar soluções inovadoras e seguras
           </p>
         </div>
 
@@ -45,17 +45,16 @@ const AboutSection = () => {
             <div className="space-y-4 text-muted-foreground">
               <p>
                 Sou um desenvolvedor Full Stack com experiência consolidada em cibersegurança, 
-                especializando-me em sistemas de Identity and Access Management (IAM) e 
+                sistemas de Identity and Access Management (IAM) e 
                 customização avançada do Keycloak.
               </p>
               <p>
                 Minha expertise inclui o desenvolvimento de interfaces web modernas utilizando 
-                React, TypeScript e JavaScript, sempre focando em criar experiências de usuário 
+                React (e suas bibliotecas), TypeScript e JavaScript, sempre focando em criar experiências de usuário 
                 excepcionais e sistemas altamente seguros.
               </p>
               <p>
-                Tenho experiência prática em soluções cloud com AWS, desenvolvendo pipelines 
-                serverless e integrações complexas. Também atuo em projetos inovadores como 
+                Tenho experiência prática em soluções cloud com AWS e GCP. Também ja desenvolvi projetos inovadores como 
                 realidade virtual aplicada ao turismo e análise de dados educacionais.
               </p>
             </div>

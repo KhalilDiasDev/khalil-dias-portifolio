@@ -7,29 +7,28 @@ const ExperienceSection = () => {
     {
       title: 'Desenvolvedor Pleno em Cibersegurança',
       company: 'Foco em IAM',
-      period: '2023 - Presente',
+      period: '2023 - 2025',
       icon: Shield,
       description: 'Desenvolvimento e manutenção de sistemas de Identity and Access Management (IAM).',
       achievements: [
-        'Criação de SPIs customizados para Keycloak',
+        'Instalação de SPIs customizados para Keycloak',
         'Integração de cabeçalhos de e-mail (List-Unsubscribe)',
-        'Customização completa das interfaces Admin UI e Account UI',
-        'Implementação de fluxos de autenticação condicional (Magic Link, FaceID/WebAuthn)',
+        'Customização completa das interfaces Admin UI e Account UI com React',
+        'Implementação de fluxos de autenticação condicional (Magic Link, FaceID/WebAuthn,Fingerprint) e OTP Authentication',
         'Integrações avançadas com AWS SES SMTP'
       ],
-      technologies: ['Keycloak', 'React', 'Ant Design', 'PatternFly', 'AWS SES', 'SNS', 'Lambda', 'DynamoDB']
+      technologies: ['Keycloak', 'React', 'Ant Design', 'PatternFly', 'AWS SES', 'Fremaker Template, Typescript']
     },
     {
       title: 'Desenvolvedor de Sistemas Web',
-      company: 'Infraestrutura em Nuvem',
+      company: 'Aplicações Saas e Infraestrutura em Nuvem',
       period: '2022 - 2023',
       icon: Code2,
       description: 'Criação de protótipos e sistemas completos utilizando tecnologias modernas.',
       achievements: [
         'Desenvolvimento de aplicações React com Node.js',
-        'Integração com bancos de dados SQL Server',
+        'Integração com bancos de dados SQL Server e MongoDB',
         'Implementação de APIs REST',
-        'Pipelines serverless na AWS',
         'Hospedagem e CI/CD em Netlify e AWS'
       ],
       technologies: ['React', 'Node.js', 'TypeScript', 'SQL Server', 'AWS', 'Netlify']
