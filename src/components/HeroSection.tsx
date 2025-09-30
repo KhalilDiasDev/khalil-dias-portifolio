@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Github, Linkedin, Mail, Download } from 'lucide-react';
 import profilePhoto from '@/assets/profile-photo.jpg';
+import { FaAws, FaNodeJs, FaReact } from 'react-icons/fa';
+import { TbBrandTypescript } from "react-icons/tb";
 
 const HeroSection = () => {
   const [hoveredOrb, setHoveredOrb] = useState(null);
@@ -143,14 +145,14 @@ const HeroSection = () => {
             ))}
           </div>
 
-          {/* Tech Stack Indicator */}
+     
           <div className="mt-16 pt-8 border-t border-border/50">
             <p className="text-sm text-muted-foreground mb-4">Tecnologias principais</p>
             <div className="flex justify-center items-center space-x-8 opacity-60">
-              <div className="text-xs font-mono bg-card border border-border px-3 py-1 rounded-full">React</div>
-              <div className="text-xs font-mono bg-card border border-border px-3 py-1 rounded-full">Node.js</div>
-              <div className="text-xs font-mono bg-card border border-border px-3 py-1 rounded-full">TypeScript</div>
-              <div className="text-xs font-mono bg-card border border-border px-3 py-1 rounded-full">AWS</div>
+              <div className="flex items-center gap-2 text-xs font-mono bg-card border border-border px-3 py-1 rounded-full"><FaReact  />React</div>
+              <div className="flex items-center gap-2 text-xs font-mono bg-card border border-border px-3 py-1 rounded-full"><FaNodeJs />Node.js</div>
+              <div className="flex items-center gap-2 text-xs font-mono bg-card border border-border px-3 py-1 rounded-full"><TbBrandTypescript />TypeScript</div>
+              <div className="flex items-center gap-2 text-xs font-mono bg-card border border-border px-3 py-1 rounded-full"><FaAws />AWS</div>
             </div>
           </div>
         </div>

@@ -44,7 +44,7 @@ const AboutSection = () => {
             </h3>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Sou um desenvolvedor Full Stack com experiência consolidada em cibersegurança, 
+                Sou um desenvolvedor Full Stack com experiência sólida em cibersegurança, 
                 sistemas de Identity and Access Management (IAM) e 
                 customização avançada do Keycloak.
               </p>
@@ -54,7 +54,7 @@ const AboutSection = () => {
                 excepcionais e sistemas altamente seguros.
               </p>
               <p>
-                Tenho experiência prática em soluções cloud com AWS e GCP. Também ja desenvolvi projetos inovadores como 
+                Tenho experiência prática em soluções cloud com AWS e GCP. Também ja desenvolvi projetos com 
                 realidade virtual aplicada ao turismo e análise de dados educacionais.
               </p>
             </div>

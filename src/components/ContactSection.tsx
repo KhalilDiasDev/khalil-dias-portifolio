@@ -91,7 +91,7 @@ const ContactSection = () => {
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8">
-          {/* Contact Information */}
+ 
           <div className="lg:col-span-1 space-y-6">
             <Card className="p-6 shadow-card">
               <h3 className="text-xl font-semibold text-foreground mb-6">
